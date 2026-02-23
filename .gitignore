@@ -1,0 +1,25 @@
+# Binaries
+echo-basics
+*.exe
+*.out
+*.bin
+
+# Environment files — never commit these
+.env
+.env.*
+
+# Editor configs
+.zed/
+.vscode/
+.idea/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Go build cache
+/vendor/
+
+# Test output
+*.test
+*.prof
