@@ -395,7 +395,7 @@ Seven shell scripts that use `curl` to smoke-test the API. No test frameworks, n
 
 ## things left to do (open PRs welcome)
 
-There are intentional gaps in this codebase. Find them, fix them, open a PR. Here are the ones we know about:
+There are intentional gaps in this codebase. Find them, fix them, open a PR. Here are some hints:
 
 - `// task:` in `server.go` — the `"dev"` environment is hardcoded. It should be read from a `.env` file or an environment variable.
 - paginated responses on `FetchLogs` and `FetchFlag` — right now they return everything. Add `limit` and `offset` query params.
